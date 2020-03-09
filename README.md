@@ -1,8 +1,8 @@
 # Movie Quiz 2019
 
-![alt text](https://raw.githubusercontent.com/svnbhsn/moviequiz2019/img/preview.jpg)
+![alt text](https://raw.githubusercontent.com/svnbhsn/moviequiz2019/master/img/preview.png)
 
-Die Informationen sind aus der [LIVE DEMO]()
+[LIVE DEMO](http://moviequiz.sboehrnsen.de/)
 
 Realisiert mit JavaScript, HTML5 und CSS3
 Als Framework wurde Bootstrap 4.0 verwendet.
