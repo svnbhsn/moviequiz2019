@@ -4,5 +4,6 @@
 
 [LIVE DEMO](http://moviequiz.sboehrnsen.de/)
 
-Realisiert mit JavaScript, HTML5 und CSS3
+Abschlussprojektarbeit aus dem JavaScript Kurs. Realisiert wurde das Projekt mit JavaScript, HTML5 und CSS3.
+
 Als Framework wurde Bootstrap 4.0 verwendet.
