@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../img/background.jpg) no-repeat left bottom fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Mobile */
+@media only screen and (max-width: 800px) {
+    #question-image {
+        width: 100%;
+    }
+
+    #question-text {
+        line-height: 3rem;
+    }
+
+    #result img {
+        width: 100%;
+    }
+
+}
+
+/* Desktop */
+@media only screen and (min-width: 801px) {
+
+    #start-screen img {
+        width: 70%;
+    }
+
+    #question-image {
+        width: 90%;
+    }
+
+    #question-text {
+        line-height: 3.5rem;
+    }
+
+    #result img {
+        width: 40%;
+    }
+
+    .zoomImg {
+        height: auto;
+        transition-duration: 0.5s;
+        transition-timing-function: ease;
+        z-index: 10;
+    }
+
+    .zoomImg:hover {
+        transform: scale(2.5);
+    }
+}
+
+/* Allgemein */
+.jumbotron {
+    border: 10px solid rgba(0, 123, 255, 0.7);
+    background-color: rgb(238, 238, 238);
+    margin: 2%;
+    padding: 2rem 2rem;
+}
+
+img {
+    width: 100%;
+}
+
+#start-screen p {
+    margin-bottom: 50px;
+}
+
+#qoute {
+    font-size: 1.4rem;
+}
+
+#question-text {
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+
+.btn {
+    font-weight: bold;
+}
+
+#arrow {
+    width: 10%;
+}

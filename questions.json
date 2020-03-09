@@ -1,0 +1,271 @@
+[{
+        "id": "1",
+        "imgURL": "img/bttf.jpg",
+        "qoute": "Der Schock seines Lebens!",
+        "question": "Aus welchem Film stammt dieses Bild?",
+        "answers": {
+            "A": "Eine Frage der Ehre",
+            "B": "Zurück in die Zukunft",
+            "C": "Pleasantville",
+            "D": "Top Gun"
+        },
+        "right": "B",
+        "explain": {
+            "image": "img/bttf-ex.jpg",
+            "right": "Richtige Antwort: Zurück in die Zukunft!",
+            "text": "Der Schauspieler Eric Stoltz wurde ursprünglich für die Rolle als Marty McFly gecastet. Es stellte sich aber im Laufe des Drehs heraus, dass Stoltz nicht lustig genug war und wurde daraufhin durch Michael J. Fox ersetzt."
+        }
+    },
+    {
+        "id": "2",
+        "imgURL": "img/rickman.jpg",
+        "qoute": "Yippie Yah Yei Schweinebacke!",
+        "question": "Was macht diese Szene aus STIRB LANGSAM besonders?",
+        "answers": {
+            "A": "Das Double von Rickman",
+            "B": "Die Höhe des Sturzes",
+            "C": "Die Hintergrundmusik",
+            "D": "Der Blick von Rickman"
+        },
+        "right": "D",
+        "explain": {
+            "image": "img/rickman-ex.jpg",
+            "right": "Richtige Antwort: Der Blick von Rickman!",
+            "text": "Der Schauspieler Alan Rickman drehte den Stunt selbst und ließ sich von einer Höhe von 40 foot (ca. 12 Meter) vom Stuntteam fallen. Um die Szene glaubwürdiger zu gestalten, ließen sie aber Rickman früher los als abgesprochen. Daher ist sein Gesichtsausdruck im Film seine echte Überraschung."
+        }
+    },
+    {
+        "id": "3",
+        "imgURL": "img/joeblack.jpg",
+        "qoute": "Ein großer Kinoerfolg von 1998",
+        "question": "Warum war der Film 'Rendezvous mit Joe Black' ein Kinoerfolg?",
+        "answers": {
+            "A": "Kinomagnet Brad Pitt",
+            "B": "Die Geschichte um den Tod",
+            "C": "Trailer vor dem Film",
+            "D": "Besondere Kinoräume"
+        },
+        "right": "C",
+        "explain": {
+            "image": "img/joeblack-ex.jpg",
+            "right": "Richtige Antwort: Trailer vor dem Film!",
+            "text": "Es wurde bekannt, dass vor dem Film 'Rendezvous mit Joe Black' der erste Trailer zu Star Wars Episode 1 gezeigt wird. Da das Internet noch nicht solche Plattformen wie YouTube hatte, kauften sich die Star Wars Fans Tickets für den Film. Kinobetreiber gaben an, dass oft bis zu 75% der Besucher nach dem Trailer gegangen sind.  Der Film spielte in den USA 44,6 Millionen Dollar ein. 15 Millionen in der ersten Woche!"
+        }
+    },
+    {
+        "id": "4",
+        "imgURL": "img/armageddon.jpg",
+        "qoute": "I Don't Want to Miss a Thing ~",
+        "question": "Wofür verwendet die NASA den film 'Armageddon'?",
+        "answers": {
+            "A": "Als Lehrfilm",
+            "B": "Freitag Abend Unterhaltung",
+            "C": "Werbung für sich",
+            "D": "Geschenk für neue Ingenieure"
+        },
+        "right": "A",
+        "explain": {
+            "image": "img/armageddon-ex.jpg",
+            "right": "Richtige Antwort: Als Lehrfilm!",
+            "text": "Das ist kein Witz. Ingenieure der National Aeronautics and Space Administration (NASA) sollen sich den Film ansehen und dann berichten, was aus deren Sicht alles im Film falsch gemacht wird. Angeblich wurden, über die Jahre, über 100 Fehler aufgezählt."
+        }
+    },
+    {
+        "id": "5",
+        "imgURL": "img/terminator2.jpg",
+        "qoute": "Hasta la vista, Baby!",
+        "question": "Wie gab es zwei Sarah Connor in 'Terminator 2'?",
+        "answers": {
+            "A": "Extra gecastete Doppelgängerin",
+            "B": "Hamiltons Zwillingsschwester",
+            "C": "Aufwendige CGI Effekte",
+            "D": "Bild-in-Bild Effekt"
+        },
+        "right": "B",
+        "explain": {
+            "image": "img/terminator2-ex.jpg",
+            "right": "Richtige Antwort: Hamiltons Zwillingsschwester!",
+            "text": "Auf dem Bild sind Linda Hamilton und ihre Zwillingsschwester Leslie Hamilton Gearren zu sehen. Leslie spielte die falsche Sarah Connor, die von dem T-1000 nachgeahnt wird. Die gleiche Idee nutze Cameron ebenfalls bei der Szene mit dem Wachmann in Sanatorium. Hier waren es Zwillingsbrüder."
+        }
+    },
+    {
+        "id": "6",
+        "imgURL": "img/myers.jpg",
+        "qoute": "Er ist heimgekommen.",
+        "question": "Was ist an der Maske von Michael Myers besonders?",
+        "answers": {
+            "A": "Sie besaß echtes Menschenhaar",
+            "B": "Fan Maske von Captain Kirk",
+            "C": "Sie ist seit 1982 in Maine verboten",
+            "D": "Ein Produktionsfehler"
+        },
+        "right": "B",
+        "explain": {
+            "image": "img/myers-ex.jpg",
+            "right": "Richtige Antwort: Fan Maske von Captain Kirk!",
+            "text": "Tatsächlich ist es eine Merchandise Maske von Captain James Kirk aus Raumschiff Enterprise. Der Film 'Halloween' von 1978 war eine Low-Budget Produktion und der Kostümbildner hat für ungefähr 2 US-Dollar die Maske gekauft und umgestaltet."
+        }
+    },
+    {
+        "id": "7",
+        "imgURL": "img/matrix.jpg",
+        "qoute": "Unwissenheit ist ein Segen!",
+        "question": "Was beinhaltet der Matrix Code?",
+        "answers": {
+            "A": "Zitate aus alten Western Filmen",
+            "B": "Den Roman '1984' von George Orwell",
+            "C": "Sourcecode Teile von Mac OS",
+            "D": "Sushi Rezepte"
+        },
+        "right": "D",
+        "explain": {
+            "image": "img/matrix-ex.jpg",
+            "right": "Richtige Antwort: Sushi Rezepte!",
+            "text": "Der Production Designer Simon Whiteley erzählte Jahre später, dass er auf der Suche nach Inspiration Kochbücher seiner japanischen Ehefrau überflogen und so auf die Idee gekommen sei, die Rezepte per Computer zu verfremden und daraus den Code aus Matrix zu basteln."
+        }
+    },
+    {
+        "id": "8",
+        "imgURL": "img/spacejam.jpg",
+        "qoute": "Is' was, Doc?",
+        "question": "Was existiert heute (Stand. 2019) noch vom Film 'Space Jam'?",
+        "answers": {
+            "A": "Eine Webseite von 1996",
+            "B": "Eine Erfolgreiche Animationsserie",
+            "C": "Fortsetzungen im Kino",
+            "D": "Die Karriere von Michael Jordan"
+        },
+        "right": "A",
+        "explain": {
+            "image": "img/spacejam-ex.jpg",
+            "right": "Richtige Antwort: Eine Webseite von 1996!",
+            "text": "Warner Bros. erstellte zum Release von Space Jam 1996 eine Interntseite, welche bis Heute (Stand 12.2019) noch verfügbar ist. Bis auf kleine Anpassungen (wie Hinweis auf cookiespeicherung) haben sie die Seite in ihrem originalzustand archiviert und über www.spacejam.com aufrufbar gelassen."
+        }
+    },
+    {
+        "id": "9",
+        "imgURL": "img/jabba.jpg",
+        "qoute": "Solo! Solo! Too Nakma Noya Solo",
+        "question": "Von welcher Rasse war Jabba the Hutt ursprünglich?",
+        "answers": {
+            "A": "Jedi",
+            "B": "Wookiee",
+            "C": "Mensch",
+            "D": "Droide"
+        },
+        "right": "C",
+        "explain": {
+            "image": "img/jabba-ex.jpg",
+            "right": "Richtige Antwort: Mensch!",
+            "text": "Im ersten Star Wars Film wurde eine Szene mit Han Solo (Harrison Ford) und Jabba (gespielt von Declan Mulholland) als Mensch gedreht. In der finalen Fassung wurde die Szene aber dann rausgeschnitten und erst in der Special Edition wieder aufgenommen. Jabba wurde, wegen seiner Überarbeitung aus 'Rückkehr der Jedi-Ritter', als computergenerierte Version über Mulholland gelegt und seine Dialoge in der 'Hutten' Sprache übersetzt."
+        }
+    },
+    {
+        "id": "10",
+        "imgURL": "img/wirzardOz.jpg",
+        "qoute": "Toto, I've a feeling we're not in Kansas anymore",
+        "question": "Warum war diese Szene gefährlich für die Schauspieler?",
+        "answers": {
+            "A": "Die Kostüme",
+            "B": "Der Schnee",
+            "C": "Die Ortschaft",
+            "D": "Die Schminke"
+        },
+        "right": "B",
+        "explain": {
+            "image": "img/wirzardOz-ex.jpg",
+            "right": "Richtige Antwort: Der Schnee",
+            "text": "Der Kunstschnee in 'The Wizard of Oz' bestand aus Asbest. Das war nichts Ungewöhnliches zu der damaligen Zeit und wurde oft älteren Hollywood-Filmen verwendet. Asbest-Schnee wurde in den USA auch als Weihnachtsdekoration für zuhause genutzt."
+        }
+    },
+    {
+        "id": "11",
+        "imgURL": "img/myrte.jpg",
+        "qoute": "wenn du aufs Klo gehen willst und sie jammert dich voll",
+        "question": "Was war die Schauspielerin der Maulende Myrte zum Zeitpunkt von 'Harry Potter und die Kammer des Schreckens'?",
+        "answers": {
+            "A": "Über 35 Jahre alt",
+            "B": "Im vierten Monat schwanger",
+            "C": "am Set Verhaftet worden",
+            "D": "Daniel Radcliffes Freundin"
+        },
+        "right": "A",
+        "explain": {
+            "image": "img/myrte-ex.jpg",
+            "right": "Richtige Antwort: Über 35 Jahre alt!",
+            "text": "Das aufdringliche Schulmädchengespenst wurde von der britischen Schauspielerin Shirley Henderson verkörpert. Henderson wurde 1965 geboren und war demzufolge im Jahr 2002, als 'Harry Potter und die Kammer des Schreckens' erschien, 37 Jahre alt."
+        }
+    },
+    {
+        "id": "12",
+        "imgURL": "img/schwarzenegger.jpg",
+        "qoute": "GET TO THA CHOPPA!!!",
+        "question": "Welcher war der erste Kinofilm mit Arnold Schwarzenegger?",
+        "answers": {
+            "A": "Conan der Barbar",
+            "B": "Terminator",
+            "C": "Das Phantom-Kommando",
+            "D": "Hercules in New York"
+        },
+        "right": "D",
+        "explain": {
+            "image": "img/schwarzenegger-ex.jpg",
+            "right": "Richige Antwort: Hercules in New York!",
+            "text": "Der erste Kinofilm mit Arnold Schwarzenegger hatte 1969 in den USA Premiere. Im Abspann wurde Schwarzenegger aber noch als 'Arnold Strong' gelistet. Bekannt wurde der Film später durch eine Kampfszene mit einem Bären. Funfact: Auch in der Originalfassung wurde Schwarzenegger synchronisiert!"
+        }
+    },
+    {
+        "id": "13",
+        "imgURL": "img/deadpool2.jpg",
+        "qoute": "Du bist so düster...sicher, dass du nicht ausm DC-Universum kommst?",
+        "question": "Wer sang den Titelsong zum Film 'DEADPOOL 2'?",
+        "answers": {
+            "A": "Lady Gaga",
+            "B": "Céline Dion",
+            "C": "Ed Sheeran",
+            "D": "Bryan Adams"
+        },
+        "right": "B",
+        "explain": {
+            "image": "img/deadpool2-ex.jpg",
+            "right": "Richige Antwort: Céline Dion",
+            "text": "Produzent David Leitch und Schauspieler Ryan Reynolds fragten die kanadische Sängerin, ob sie den Song 'Ashes' für den Film singen würde und sie sagte direkt zu. Dieser Song findet sich auf dem Motion Picture Soundtrack. Zudem gibt es auch ein Musikvideo."
+        }
+    },
+    {
+        "id": "14",
+        "imgURL": "img/blues.jpg",
+        "qoute": "Die Band, Elwood, die Band!",
+        "question": "Worauf basiert der Film 'The Blues Brothers'?",
+        "answers": {
+            "A": "Auf eine echte Band",
+            "B": "Auf eine Musiker-Legende",
+            "C": "Einen Comedy Sketch",
+            "D": "Einen Film aus den 50er Jahren"
+        },
+        "right": "A",
+        "explain": {
+            "image": "img/blues-ex.jpg",
+            "right": "Richige Antwort: Auf eine echte Band",
+            "text": "Die Rhythm-and-Blues-Band 'The Blues Brothers' gab es wirklich. Sie wurde von den zwei Schauspielern und Komikern John Belushi (als Sänger „Joliet“ Jake Blues) und Dan Aykroyd (als Sänger und Mundharmonika-Spieler Elwood Blues) 1977 gegründet. Angefangen mit Auftritten in der Saturday Night Live (SNL) Show war der Erfolg so groß, dass 2 Kinofilme, min. 8 Alben und viele Live Konzerte folgten."
+        }
+    },
+    {
+        "id": "15",
+        "imgURL": "img/slimer.jpg",
+        "qoute": "Who you gonna call?",
+        "question": "Von woher bekam Slimer aus 'GHOSTBUSTERS' seinen Namen?",
+        "answers": {
+            "A": "Von Merchandise-Produkten",
+            "B": "Von dem zweiten Kinofilm ",
+            "C": "Von der Zeichentrickserie",
+            "D": "Von Bill Murray"
+        },
+        "right": "C",
+        "explain": {
+            "image": "img/slimer-ex.jpg",
+            "right": "Richige Antwort: Aus der Zeichentrickserie",
+            "text": "Der Geist Slimer bekam seinen Namen erst durch die Zeichentrickserie 'The Real Ghostbusters' aus dem Jahr 1986 bis 1991. Slimer war so beliebt gewesen, dass er später sogar seine eigene Ablegerserie bekam. Im ersten Film war Slimers Bezeichnung noch 'Onion Head' gewesen."
+        }
+    }
+]

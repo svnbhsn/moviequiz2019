@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Eigene CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Movie Quiz 2019</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+
+            <!-- Startscreen -->
+            <div id="start-screen" class="jumbotron quiz-start text-center">
+                <img src="img/Logo.png" alt="Nerd Quiz Logo">
+                <h1 class="text-uppercase">Willkommen</h1>
+                <p>Machen Sie das Quiz über tiefere Film-Fakten und beweisen Sie Ihr Wissen oder lernen vielleicht was
+                    dazu!</p>
+                <p><button id="btnStart" class="btn btn-primary btn-lg">Jetzt Beginnen</button></p>
+                <br>
+                <p><strong>2019 - Erstellt von Sven Böhrnsen</strong></p>
+            </div>
+
+            <!-- Frageblock -->
+            <div id="question" class="jumbotron text-center" hidden>
+                <h2 id="qoute">Frage <span id="question-number">0</span> - <span id="question-qoute"></span></h2>
+                <img id="question-image" src="img/Logo.png" alt="Bild zur Frage">
+
+                <h2 id="question-text">Frage?</h2>
+                <!-- Antwortenblock -->
+                <div class="row">
+                    <!-- Antwort A -->
+                    <div class="col-md-6">
+                        <p><button id="btn-answer-a" class="answer btn btn-secondary btn-lg btn-block">A: <span
+                                    id="answer-a">Antwort 1</span></button></p>
+                    </div>
+                    <!-- Antwort B -->
+                    <div class="col-md-6">
+                        <p><button id="btn-answer-b" class="answer btn btn-secondary btn-lg btn-block">B: <span
+                                    id="answer-b">Antwort 2</span></button></p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!-- Antwort C -->
+                    <div class="col-md-6">
+                        <p><button id="btn-answer-c" class="answer btn btn-secondary btn-lg btn-block">C: <span
+                                    id="answer-c">Antwort 3</span></button></p>
+                    </div>
+                    <!-- Antwort D -->
+                    <div class="col-md-6">
+                        <p><button id="btn-answer-d" class="answer btn btn-secondary btn-lg btn-block">D: <span
+                                    id="answer-d">Antwort 4</span></button></p>
+                    </div>
+                </div>
+
+                <!-- Bestätigungsbutton -->
+                <div class="row">
+                    <div class="col-md-8">
+                    </div>
+                    <div class="col-md-4">
+                        <button id="btn-confirm" class="btn btn-primary btn-lg btn-block">Bestätigen</button>
+                    </div>
+                </div>
+                <a href="#explain-screen"><img id="arrow" class="text-center" src="img/arrowDown.png" alt=""></a>
+            </div>
+
+            <!-- Erklärungscreen -->
+            <div id="explain-screen" class="jumbotron" hidden>
+                <h2 class="text-center text-uppercase">Erklärung</h2>
+                <strong>
+                    <p id="rightAnswer" class="text-center"></p>
+                </strong>
+                <div class="col-md-4 float-md-left">
+                    <img id="explain-img" class="zoomImg" src="img/Logo_durchsichtig.png" alt="Bild zur Erklärung">
+                    <br>
+                    <br>
+                </div>
+                <div class="col-md-8 float-md-left">
+                    <p id="explain-text">Text?</p>
+                    <br>
+                    <br>
+                </div>
+                <button id="btn-next" class="btn btn-primary btn-lg btn-block"><span>Nächste Frage</span></button>
+            </div>
+
+            <!-- Endscreen -->
+            <div id="gameOver-screen" class="jumbotron quiz-end text-center" hidden>
+                <h2>Du hast das Quiz beendet</h2>
+                <p>Dein Punktestand ist: <strong><span id="endpoints">0</span> von <span
+                            id="maxPoints">0</span></strong></p>
+                <div id="result"></div>
+                <br>
+                <p><strong>Danke fürs mitmachen!</strong></p>
+                <br>
+                <p><strong>2019 - Erstellt von Sven Böhrnsen</strong></p>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- jQuery -->
+    <script src="js/jquery-3.4.1.min.js" defer="defer"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js" defer="defer"></script>
+    <!-- Eigene JS -->
+    <script src="js/script.js" defer="defer"></script>
+</body>
+
+</html>
