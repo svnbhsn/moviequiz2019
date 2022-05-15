@@ -307,13 +307,13 @@
     {
         "id": "18",
         "imgURL": "img/enterpriseCrew.jpg",
-        "qoute": "Oft kommt es anders als gewollt",
+        "qoute": "Der Weltraum, unendliche Weiten",
         "question": "Was löste in Raumschiff Enterprise eine Kontroverse aus?",
         "answers": {
             "A": "Ein Kuss",
             "B": "Eine Kampfszene",
-            "C": "Der letzte Stummfilm-Schauspieler",
-            "D": "Erfinder des Horrorfilm-Genre"
+            "C": "Das Beamen",
+            "D": "Die Rasse Vulkanier"
         },
         "right": "A",
         "explain": {
