@@ -5,22 +5,48 @@ let playerPoints = 0;
 let correctAnswerPoints = 10;
 let currentQuestion;
 let questions = [];
+let selectedQuestions = [];
 
 $.getJSON("questions.json", function (data) {
 
     $.each(data, function (key, val) {
         questions.push(val);
+
+        shuffle(questions);
+
+        selectedQuestions = questions.slice(0,5);
+
+        console.log(selectedQuestions);
     });
 });
+
+
+function shuffle(array) {
+    let currentIndex = array.length,  randomIndex;
+  
+    // While there remain elements to shuffle.
+    while (currentIndex != 0) {
+  
+      // Pick a remaining element.
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex--;
+  
+      // And swap it with the current element.
+      [array[currentIndex], array[randomIndex]] = [
+        array[randomIndex], array[currentIndex]];
+    }
+  
+    return array;
+  }
 
 // Frage + Antwortmöglichkeiten 
 function showNextQuestion() {
     
         // Wenn es die letzte Frage ist
-    if (questionNr == questions.length - 1) {
+    if (questionNr == selectedQuestions.length - 1) {
         $("#btn-next").text("Zur Auswertung");
     }
-    if (questionNr >= questions.length) {
+    if (questionNr >= selectedQuestions.length) {
         quizResult();
     } else {
         $("#arrow").hide();
@@ -29,7 +55,7 @@ function showNextQuestion() {
         $("#btn-confirm").attr("disabled", "disabled");
         $("#btn-confirm").text("Bitte eine Antwort wählen ..");
 
-        currentQuestion = questions[questionNr];
+        currentQuestion = selectedQuestions[questionNr];
 
         $("#question-number").text(questionNr + 1);
 
@@ -151,7 +177,7 @@ function quizResult() {
     let resultText;
 
     $("#endpoints").text(playerPoints);
-    $("#maxPoints").text(correctAnswerPoints * questions.length);
+    $("#maxPoints").text(correctAnswerPoints * selectedQuestions.length);
 
     // Speichert Die erreichten Punkte in Webstorange
     if(localStorage.getItem("Zuerst Erreichte Punkte: ") != null) {
@@ -161,22 +187,16 @@ function quizResult() {
     }
 
     // Ergebnis Bild und Text
-    if (playerPoints === 150) {
+    if (playerPoints === 50) {
         resultImg = $('<img src="img/result/r50.jpg" alt=""></img>');
         resultText = $("<h3></h3>").text("Hammer Leistung, du bist ein echter Film-Experte!");
-    } else if (playerPoints >= 100 && playerPoints <= 140) {
+    } else if (playerPoints >= 30 && playerPoints <= 40) {
         resultImg = $('<img src="img/result/r40.jpg" alt=""></img>');
-        resultText = $("<h3></h3>").text("Super Leistung, da kennt sich einer mit Filmen aus!");
-    } else if (playerPoints >= 70 && playerPoints <= 90) {
-        resultImg = $('<img src="img/result/r30.jpg" alt=""></img>');
-        resultText = $("<h3></h3>").text("Gute Leistung, da schaut jemand Bonus Material!");
-    } else if (playerPoints >= 30 && playerPoints <= 60) {
-        resultImg = $('<img src="img/result/r20.jpg" alt=""></img>');
-        resultText = $("<h3></h3>").text("Immerhin, aber jetzt weißt du noch mehr!");
+        resultText = $("<h3></h3>").text("Super Leistung, da schaut jemand das Bonus Material!");
     } else {
         resultImg = $('<img src="img/result/r10.jpg" alt=""></img>');
         resultText = $("<h3></h3>").text("Zumindest hast du was dazu gelernt! :)");
-    }
+    } 
 
     $("#result").append(resultImg, resultText);
 

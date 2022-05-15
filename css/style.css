@@ -45,13 +45,16 @@ body {
 
     .zoomImg {
         height: auto;
-        transition-duration: 0.5s;
-        transition-timing-function: ease;
-        z-index: 10;
+        transition-duration: 0.3s;
+        transition-timing-function: ease;;
     }
 
     .zoomImg:hover {
-        transform: scale(2.5);
+        transform: scale(1.8);
+    }
+
+    #explain_div {
+        z-index: 2;
     }
 }
 
