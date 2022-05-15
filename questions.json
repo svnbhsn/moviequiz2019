@@ -164,7 +164,7 @@
         "id": "10",
         "imgURL": "img/wirzardOz.jpg",
         "qoute": "Toto, I've a feeling we're not in Kansas anymore",
-        "question": "Warum war diese Szene gefährlich für die Schauspieler?",
+        "question": "Was war in dieser Szene gefährlich für die Schauspieler?",
         "answers": {
             "A": "Die Kostüme",
             "B": "Der Schnee",
@@ -266,6 +266,60 @@
             "image": "img/slimer-ex.jpg",
             "right": "Richige Antwort: Aus der Zeichentrickserie",
             "text": "Der Geist Slimer bekam seinen Namen erst durch die Zeichentrickserie 'The Real Ghostbusters' aus dem Jahr 1986 bis 1991. Slimer war so beliebt gewesen, dass er später sogar seine eigene Ablegerserie bekam. Im ersten Film war Slimers Bezeichnung noch 'Onion Head' gewesen."
+        }
+    },
+    {
+        "id": "16",
+        "imgURL": "img/c3po.jpg",
+        "qoute": "Sag nicht immer du wirrköpfiger Philosoph zu mir!",
+        "question": "Welche Farbe(n) hat C-3PO in der alten Trilogie?",
+        "answers": {
+            "A": "Gold",
+            "B": "Gold und Rot",
+            "C": "Gold und Silber",
+            "D": "Silber"
+        },
+        "right": "C",
+        "explain": {
+            "image": "img/c3po-ex.jpg",
+            "right": "Richtige Antwort: Gold und Silber!",
+            "text": "Die meisten erinnern sich an den Protocolldroiden C-3PO in komplett Gold. Das war er jedoch nur in dem Film \"Episode III – Die Rache der Sith\". In der gesamten ersten Trilogie war sein rechtes Bein Silber. Wie mit dem roten Arm in der neuen Trilogie wird aber nicht erklärt, warum das so ist. "
+        }
+    },
+    {
+        "id": "17",
+        "imgURL": "img/edwood.jpg",
+        "qoute": "Oft kommt es anders als gewollt",
+        "question": "Für was wurde dieser Mann berühmt?",
+        "answers": {
+            "A": "Wilhelm Schrei",
+            "B": "Schlechte Filmregie",
+            "C": "Der letzte Stummfilm-Schauspieler",
+            "D": "Erfinder des Horrorfilm-Genre"
+        },
+        "right": "B",
+        "explain": {
+            "image": "img/edwood-ex.jpg",
+            "right": "Richtige Antwort: Schlechte Filmregie",
+            "text": "Das ist Edward (Ed) Wood Jr. Der dank Harry und Michael Medved als Schlechtester Regisseur aller Zeiten in die Filmgeschichte eingegangen ist. Unter seinen Werken sind u.a. der kontroverse Film Glen or Glenda oder Plan 9 from Outer Space, welcher heute Kultstatus hat. Sein Leben wurde 1994 von Tim Burton unter dem Filmtitel \"Ed Wood\" mit Johnny Depp verfilmt. \n Man könnte auch soweit gehen und behaupten, er wäre der Erfinder von Trashfilmen."
+        }
+    },
+    {
+        "id": "18",
+        "imgURL": "img/enterpriseCrew.jpg",
+        "qoute": "Oft kommt es anders als gewollt",
+        "question": "Was löste in Raumschiff Enterprise eine Kontroverse aus?",
+        "answers": {
+            "A": "Ein Kuss",
+            "B": "Eine Kampfszene",
+            "C": "Der letzte Stummfilm-Schauspieler",
+            "D": "Erfinder des Horrorfilm-Genre"
+        },
+        "right": "A",
+        "explain": {
+            "image": "img/enterpriseCrew-ex.jpg",
+            "right": "Richtige Antwort: Ein Kuss",
+            "text": "In der Episode \"Platons Stiefkinder\" der dritten Staffel von Raumschiff Enterprise küsst William Shattner seine Schauspielerkollegin Nichelle Nichols auf den Mund. Was heute für normalität gilt, war im Jahr 1968 in den USA ein unding und sorgte für Disskusionen. Heute gilt diese Szene als einer der ersten gemischtrassigen Küsse in der Fernsehgeschichte. Funfact: Der erste schon 1964 in der britischen TV-Sendung Emergency-Ward 10 zu sehen."
         }
     }
 ]
