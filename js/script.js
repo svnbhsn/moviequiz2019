@@ -15,8 +15,6 @@ $.getJSON("questions.json", function (data) {
         shuffle(questions);
 
         selectedQuestions = questions.slice(0,5);
-
-        console.log(selectedQuestions);
     });
 });
 
@@ -52,6 +50,8 @@ function showNextQuestion() {
         $("#arrow").hide();
         $(".answer").removeClass("btn-warning btn-danger btn-success");
         $(".answer").addClass("btn-secondary");
+        $("#btnJoker").show();
+        $(".answer").prop("disabled",false);
         $("#btn-confirm").attr("disabled", "disabled");
         $("#btn-confirm").text("Bitte eine Antwort wählen ..");
 
@@ -85,6 +85,10 @@ $("#btnStart").click(function () {
     $(".quiz-start").fadeOut(function () {
         startQuiz();
     });
+});
+
+$("#btnStartAgain").click(function () {
+    window.location.reload();
 });
 
 function startQuiz() {
@@ -146,6 +150,9 @@ $("#btn-confirm").click(function () {
 function checkAnswer() {
     $("#btn-confirm").hide();
     $("#arrow").show();
+    $(".answer").prop("disabled",true);
+    $("#btnJoker").hide();
+
     let rightAnswer = getRightAnswer();
     let selectedAnswer = $(".answer.btn-warning").text()[0];
     let selectedAnswerId = $(".answer.btn-warning").attr("id");

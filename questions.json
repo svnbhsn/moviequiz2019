@@ -128,7 +128,7 @@
         "id": "8",
         "imgURL": "img/spacejam.jpg",
         "qoute": "Is' was, Doc?",
-        "question": "Was existiert heute (Stand. 2019) noch vom Film 'Space Jam'?",
+        "question": "Was existiert heute (Stand. 2022) noch vom Film 'Space Jam'?",
         "answers": {
             "A": "Eine Webseite von 1996",
             "B": "Eine Erfolgreiche Animationsserie",
@@ -139,7 +139,7 @@
         "explain": {
             "image": "img/spacejam-ex.jpg",
             "right": "Richtige Antwort: Eine Webseite von 1996!",
-            "text": "Warner Bros. erstellte zum Release von Space Jam 1996 eine Interntseite, welche bis Heute (Stand 12.2019) noch verfügbar ist. Bis auf kleine Anpassungen (wie Hinweis auf cookiespeicherung) haben sie die Seite in ihrem originalzustand archiviert und über www.spacejam.com aufrufbar gelassen."
+            "text": "Warner Bros. erstellte zum Release von Space Jam 1996 eine Interntseite, welche bis Heute (Stand 08.2022) noch verfügbar ist. Bis auf kleine Anpassungen (wie Hinweis auf cookiespeicherung) haben sie die Seite in ihrem originalzustand archiviert und über www.spacejam.com aufrufbar gelassen."
         }
     },
     {
@@ -320,6 +320,114 @@
             "image": "img/enterpriseCrew-ex.jpg",
             "right": "Richtige Antwort: Ein Kuss",
             "text": "In der Episode \"Platons Stiefkinder\" der dritten Staffel von Raumschiff Enterprise küsst William Shattner seine Schauspielerkollegin Nichelle Nichols auf den Mund. Was heute für normalität gilt, war im Jahr 1968 in den USA ein unding und sorgte für Disskusionen. Heute gilt diese Szene als einer der ersten gemischtrassigen Küsse in der Fernsehgeschichte. Funfact: Der erste schon 1964 in der britischen TV-Sendung Emergency-Ward 10 zu sehen."
+        }
+    },
+    {
+        "id": "19",
+        "imgURL": "img/aladdin.jpg",
+        "qoute": "Das Wünschen weiterer Wünsche ist nicht wünschenswert",
+        "question": "Was fehlt Aladdin aus dem gleichnamigen Disney Animationsfilm?",
+        "answers": {
+            "A": "Finger",
+            "B": "Charakter",
+            "C": "Nippel",
+            "D": "Bauchnabel"
+        },
+        "right": "C",
+        "explain": {
+            "image": "img/aladdin-ex.jpg",
+            "right": "Richtige Antwort: Nippel",
+            "text": "Der genaue Grund, warum diese fehlen ist nicht bekannt. Es wird angenommen, dass sie wegen den jungen Zuschauern weggelassen worden sind. Zumindest galt das für 1992, da Zeus aus dem Film Herkules von 1997 und Tarzan aus dem gleichnamigen Film von 1999 welche bekommen haben."
+        }
+    },
+    {
+        "id": "20",
+        "imgURL": "img/superman.jpg",
+        "qoute": "Das ist kein 'S'. In meiner Welt bedeutet es Hoffnung.",
+        "question": "Was führte beinah dazu, dass Henry Cavill die Rolle als Superman nicht bekommen hätte?",
+        "answers": {
+            "A": "Falsche Telefonnummer",
+            "B": "Raid in WoW",
+            "C": "Schlafmangel",
+            "D": "Ben Affleck"
+        },
+        "right": "B",
+        "explain": {
+            "image": "img/superman-ex.jpg",
+            "right": "Richtige Antwort: Raid in WoW",
+            "text": "In einem Interview mit Conan O'Brien gab der Cavill zu, dass er den Anruf vom Regisseur Zack Snyder zuerst ignorierte, da er sich gerade mitten in einem World of Warcraft Raid befand. Als er aber bemerkt hatte wer angerufen hatte, hat er Snyder gleich zurückgerufen. All hail to the King of the Nerds!"
+        }
+    },
+    {
+        "id": "21",
+        "imgURL": "img/djangoLeo.jpg",
+        "qoute": "Das D is' stumm",
+        "question": "Was macht diese Szene aus Django Unchained besonders?",
+        "answers": {
+            "A": "Echtes Blut von DiCaprio",
+            "B": "Marihuana in der Zigarette",
+            "C": "Sie musste 13 mal wiederholt werden",
+            "D": "DiCaprio war betrunken"
+        },
+        "right": "A",
+        "explain": {
+            "image": "img/djangoLeo-ex.jpg",
+            "right": "Richtige Antwort: Echtes Blut von DiCaprio",
+            "text": "Be der Dinner-Szene haut Leonardo DiCaprio mit seiner Hand auf den Tisch und verbricht aus Versehen dabei ein Glas. Anstatt aber abzubrechen bleibt er in seiner Rolle, wobei die Wunde stark blutete. Tarantino war anscheinend von der Aktion so imponiert, dass er diesen Take mit in den fertigen Film mit nahm."
+        }
+    },
+    {
+        "id": "22",
+        "imgURL": "img/theDetective.jpg",
+        "qoute": "There's only one truth",
+        "question": "Welcher Film ist eine (indirekte) Fortsetzung von \"The Detective\" aus dem Jahr 1968?",
+        "answers": {
+            "A": "Stirb Langsam",
+            "B": "Die nackte Kanone",
+            "C": "Beverly Hills Cop",
+            "D": "Dick Tracy"
+        },
+        "right": "A",
+        "explain": {
+            "image": "img/theDetective-ex.jpg",
+            "right": "Richtige Antwort: Stirb Langsam",
+            "text": "Sowohl der Film \"Der Detektiv\" als auch \"Stirb Langsam\" basieren auf die Buchreihe „The Detective“ von Roderick Thorp. Stirb Langsam ist herbei die Adaption des Buches Nothing Lasts Forever, welches wieder mit Frank Sinatra in der Rolle des Detektives Joe Leland verfilmt werden sollte. Dieser lehnte jedoch ab und nach ein paar Änderungen wurde aus Joe Leland John McLaine mit Bruce Willis im Nakatomi Tower."
+        }
+    },
+    {
+        "id": "23",
+        "imgURL": "img/canibal.jpg",
+        "qoute": "They've just invited us to dinner!",
+        "question": "Was erhielt der Regisseur dank seines Filmes \"Cannibal Holocaust\"?",
+        "answers": {
+            "A": "Eine Mordanklage",
+            "B": "Den finanzieller Ruin",
+            "C": "Eine Krankheit",
+            "D": "Eine Scheidung"
+        },
+        "right": "A",
+        "explain": {
+            "image": "img/canibal-ex.jpg",
+            "right": "Richtige Antwort: Eine Mordanklage",
+            "text": "Durch die Darstellung als Dokumentarfilm und die realistische Darstellung von Gewalt, wurde Ruggero Deodato angeklagt echte Leichen genutzt und eine Darstellerin für den Film getötet zu haben. Vor Gericht musste er am Ende beweisen, dass die Frau im Film nicht wirklich gepfählt worden ist, was er dank Fotos klarstellen konnte, welche nach der Szene entstanden waren."
+        }
+    },
+    {
+        "id": "24",
+        "imgURL": "img/terminator1.png",
+        "qoute": "i'll be back!",
+        "question": "Welcher Schauspieler wurde als \"zu freundlich\" für die Rolle des Terminator gesehen?",
+        "answers": {
+            "A": "Sigourney Weaver",
+            "B": "Bill Murray",
+            "C": "O. J. Simpson",
+            "D": "Tom Hanks"
+        },
+        "right": "C",
+        "explain": {
+            "image": "img/terminator1-ex.jpg",
+            "right": "Richtige Antwort: O. J. Simpson",
+            "text": "Als es um die Besetzung des Terminators ging, waren vor Schwarzenegger andere Kandidaten vorgesehen, darunter auch O. J. Simpson. Der Regisseur James Cameron gab in einem Interview zu, dass er zuerst Simpson als Terminator und Schwarzenegger als Helden haben wollte. Später verwarf er aber den Gedanken, da er in den ehemaligen NFL Sportler keinen Killer sah. O. J. Simpson wurde 1995 angeklagt seine Ex-Frau und dessen Geliebten ermordet zu haben. Zwar wurde er freigesprochen, aber seine Unschuld war nie vollends bewiesen und viele zweifeln heute noch dran."
         }
     }
 ]

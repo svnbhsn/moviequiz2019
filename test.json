@@ -1,0 +1,20 @@
+[
+    {
+        "id": "18",
+        "imgURL": "img/enterpriseCrew.jpg",
+        "qoute": "Der Weltraum, unendliche Weiten",
+        "question": "Was löste in Raumschiff Enterprise eine Kontroverse aus?",
+        "answers": {
+            "A": "Ein Kuss",
+            "B": "Eine Kampfszene",
+            "C": "Das Beamen",
+            "D": "Die Rasse Vulkanier"
+        },
+        "right": "A",
+        "explain": {
+            "image": "img/enterpriseCrew-ex.jpg",
+            "right": "Richtige Antwort: Ein Kuss",
+            "text": "In der Episode \"Platons Stiefkinder\" der dritten Staffel von Raumschiff Enterprise küsst William Shattner seine Schauspielerkollegin Nichelle Nichols auf den Mund. Was heute für normalität gilt, war im Jahr 1968 in den USA ein unding und sorgte für Disskusionen. Heute gilt diese Szene als einer der ersten gemischtrassigen Küsse in der Fernsehgeschichte. Funfact: Der erste schon 1964 in der britischen TV-Sendung Emergency-Ward 10 zu sehen."
+        }
+    }
+]
